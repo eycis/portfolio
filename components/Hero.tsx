@@ -14,22 +14,26 @@ const Hero = () => {
                         Hi, I am <span className="text-violet-400">Marie</span> and this is my portfolio!
                     </h1>
                     <TextEffect/>
-                    <p className = "mt-[1.5rem] text-[18px]  text-[#ffffff92]">
+                    <p className = "mt-[1.5rem] text-[18px] text-[#ffffff92]">
                         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam neque provident pariatur sint ipsam 
                         alias mollitia earum, doloribus aliquid beatae? Fugit cupiditate ipsum harum consequatur?
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flexrow items-center sm:space-x-6">
-                        <button className="px-[2rem] hover:bg-violet-400 transition-all duration-200 py-[1rem] text-[18px]
-                        font-bold uppercase bg-[#ffffff92] text-black flex items-center space-x-2">
+                        <a
+                            href="/CV.pdf" 
+                            download="CV.pdf"
+                            className="px-[2rem] hover:bg-violet-400 transition-all duration-200 py-[1rem] text-[18px]
+                            font-bold uppercase bg-[#ffffff92] text-black flex items-center space-x-2"
+                        >
                             <p>
                                 Download CV
                             </p>
-                            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black "/>
-                        </button>
+                            <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black"/>
+                        </a>
                     </div>
                 </div>
                 <div className="w-[500px] hidden bg-violet-400 relative lg:flex items-center rounded-full h-[500px]">
-                    <Image src = "/images/me.jpg" alt="user" layout="fill" className="object-cover rounded-full"/>
+                    <Image src="/images/me.jpg" alt="user" layout="fill" className="object-cover rounded-full"/>
                 </div>
             </div>
         </div>
