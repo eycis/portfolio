@@ -11,7 +11,7 @@ const Nav = ({ openNav }: Props) => {
     <div className="w-[100%] fixed z-[10000] top-0 h-[12vh] bg-[#141c27] shadow-md">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
-          My <span className="text-violet-400">CV</span>
+          My <span className="text-violet-400">Portfolio</span>
         </h1>
         <div className="hidden md:flex space-x-4">
           <Link
