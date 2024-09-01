@@ -24,7 +24,7 @@ const responsive = {
 const Review = () => {
   return (
     <Carousel
-        additionalTransfrom={0}
+        additionalTransfrom={0} 
         arrows={true}
         autoPlay={true}
         autoPlaySpeed={5000}
@@ -32,7 +32,6 @@ const Review = () => {
         infinite
         responsive={responsive}
         itemClass='item'
-
     >
       <ReviewItems image="/images/me.jpg" name = "tvoje máma" role="tvoje máma"/>
       <ReviewItems image="/images/me.jpg" name = "tvoje máma" role="tvoje máma"/>
