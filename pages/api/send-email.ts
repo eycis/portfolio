@@ -4,17 +4,21 @@ import nodemailer from 'nodemailer';
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
     if (req.method === 'POST') {
 
+        const user = process.env.GMAIL_USER;
+        const pass = process.env.GMAIL_PASSWORD;
+        const recipientEmail = process.env.RECIPIENT_EMAIL;
+
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
-                user: 'eycisxxx@gmail.com',
-                pass: 'hkli fpfu tlto auyd',
+                user,
+                pass,
             },
         });
 
         const mailOptions = {
-            from: 'eycisxxx@gmail.com',
-            to: 'dzugam00@jcu.cz',
+            from: user,
+            to: recipientEmail,
             subject: 'CV downloaded',
             text: 'Somebody has downloaded the CV from your portfolio! ',
         };
