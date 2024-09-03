@@ -9,7 +9,7 @@ export const sendEmail = async (): Promise<void> => {
         });
 
         if (!response.ok) {
-            throw new Error('Error sending email from service');
+            throw new Error('Error sending email from email service');
         }
     } catch (error) {
         console.error('Error:', error);
