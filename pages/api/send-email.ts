@@ -1,45 +1,35 @@
 import { NextApiRequest, NextApiResponse } from 'next';
-import nodemailer from 'nodemailer';
+import sendgrid from '@sendgrid/mail';
 
 export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+    console.log("api handler called");
     if (req.method === 'POST') {
-
-        const user = process.env.GMAIL_USER;
-        const pass = process.env.GMAIL_PASSWORD;
-        const recipientEmail = process.env.RECIPIENT_EMAIL;
-
-        if (!user || !pass || !recipientEmail) {
-            console.error('Missing environment variables');
-            return res.status(500).json({ message: 'Missing environment variables' });
+        const recipientEmail = process.env.RECIPIENT_EMAIL as string;
+        const apiKey = process.env.API_KEY as string;
+        const user = process.env.USER as string;
+    
+        
+        if (!recipientEmail || !user || ! apiKey) {
+            return res.status(500).json({ message: 'Missing email info ' });
         }
-            
-
-        const transporter = nodemailer.createTransport({
-            service: 'gmail',
-            auth: {
-                user,
-                pass,
-            },
-        });
-
-        const mailOptions = {
-            from: user,
-            to: recipientEmail,
-            subject: 'CV downloaded',
-            text: 'Somebody has downloaded the CV from your portfolio! How Amazing ',
-        };
-
+        sendgrid.setApiKey(apiKey);
         try {
-            await transporter.sendMail(mailOptions);
+            const msg = {
+                to: recipientEmail,
+                from: user,
+                subject: 'CV downloaded',
+                text: 'Somebody has downloaded the CV from your portfolio! How Amazing ',
+            };
+
+            await sendgrid.send(msg);
             res.status(200).json({ message: 'Email sent successfully' });
+            console.log("mail se odeslal");
         } catch (error) {
             console.error('Error sending email:', error);
             if (error instanceof Error) {
-                // Pokud error je instance Error, můžete bezpečně přistupovat k error.message
-                res.status(500).json({ message: 'Error sending email from api', error: error.message });
+                res.status(500).json({ message: 'Error sending email', error: error.message });
             } else {
-                // Pokud error není instance Error, můžete jednoduše vrátit obecnou chybovou zprávu
-                res.status(500).json({ message: 'Error sending email from api', error: 'An unknown error occurred' });
+                res.status(500).json({ message: 'Error sending email', error: 'An unknown error occurred' });
             }
         }
     } else {
@@ -47,4 +37,3 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         res.status(405).end(`Method ${req.method} Not Allowed`);
     }
 }
-

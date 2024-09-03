@@ -42,8 +42,8 @@ const Hero = () => {
                         </button>
                     </div>
                 </div>
-                <div className="w-[500px] hidden bg-violet-400 relative lg:flex items-center rounded-full h-[500px]">
-                    <Image src="/images/me.jpg" alt="user" className="object-cover rounded-full" />
+                <div data-aos="fade-left" className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
+                <Image src="/images/me.jpg" alt="user" layout="fill" objectFit="\contain" className="object-cover rounded-full" />
                 </div>
             </div>
         </div>
