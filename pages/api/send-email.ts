@@ -8,6 +8,12 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         const pass = process.env.GMAIL_PASSWORD;
         const recipientEmail = process.env.RECIPIENT_EMAIL;
 
+        if (!user || !pass || !recipientEmail) {
+            console.error('Missing environment variables');
+            return res.status(500).json({ message: 'Missing environment variables' });
+        }
+            
+
         const transporter = nodemailer.createTransport({
             service: 'gmail',
             auth: {
@@ -41,3 +47,4 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
         res.status(405).end(`Method ${req.method} Not Allowed`);
     }
 }
+
