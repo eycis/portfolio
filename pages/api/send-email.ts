@@ -20,7 +20,7 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             from: user,
             to: recipientEmail,
             subject: 'CV downloaded',
-            text: 'Somebody has downloaded the CV from your portfolio! ',
+            text: 'Somebody has downloaded the CV from your portfolio! How Amazing ',
         };
 
         try {
