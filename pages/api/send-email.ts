@@ -14,6 +14,8 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
                 user,
                 pass,
             },
+            logger: true,
+            debug: true,
         });
 
         const mailOptions = {
