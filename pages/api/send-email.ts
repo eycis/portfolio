@@ -36,10 +36,10 @@ export default async function handler(req: NextApiRequest, res: NextApiResponse)
             console.error('Error sending email:', error);
             if (error instanceof Error) {
                 // Pokud error je instance Error, můžete bezpečně přistupovat k error.message
-                res.status(500).json({ message: 'Error sending email', error: error.message });
+                res.status(500).json({ message: 'Error sending email from api', error: error.message });
             } else {
                 // Pokud error není instance Error, můžete jednoduše vrátit obecnou chybovou zprávu
-                res.status(500).json({ message: 'Error sending email', error: 'An unknown error occurred' });
+                res.status(500).json({ message: 'Error sending email from api', error: 'An unknown error occurred' });
             }
         }
     } else {
