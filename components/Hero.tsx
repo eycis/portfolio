@@ -25,7 +25,7 @@ const Hero = () => {
                     </h1>
                     <TextEffect/>
                     <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-                    I'm a frontend developer who enjoys building secure, functional, 
+                    I am a frontend developer who enjoys building secure, functional, 
                     and user-friendly applications. While working on an injury reporting system, 
                     I designed the data model, security layer, export features, and role-based UX. 
                     I believe even simple apps deserve thoughtful, well-structured solutions that make sense —

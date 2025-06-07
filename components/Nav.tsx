@@ -34,7 +34,7 @@ const Nav = ({ openNav }: Props) => {
           >
             About me
           </Link>
-          <Link
+          {/* <Link
             to="services"
             spy={true}
             smooth={true}
@@ -43,7 +43,7 @@ const Nav = ({ openNav }: Props) => {
             className="nav-link cursor-pointer"
           >
             Services
-          </Link>
+          </Link> */}
           <Link
             to="skills"
             spy={true}
