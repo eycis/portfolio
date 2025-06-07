@@ -5,18 +5,14 @@ import { ArrowDownTrayIcon } from "@heroicons/react/24/solid";
 import { sendEmail } from "../services/emailService"; 
 
 
-const downloadCV = async () => {
-    try {
-        // Zavolání funkce, která spustí odeslání e-mailu
-        await sendEmail();
-
-        // Po úspěšném odeslání e-mailu zahajte stahování CV
-        //window.location.href = '/CV.pdf';
-    } catch (error) {
-        alert('Error sending email');
-        console.error('Error during CV download:', error);
-    }
-};
+// const downloadCV = async () => {
+//     try {
+//         //await sendEmail();
+//     } catch (error) {
+//         alert('Error sending email');
+//         console.error('Error during CV download:', error);
+//     }
+// };
 
 const Hero = () => {
     return (
@@ -36,14 +32,13 @@ const Hero = () => {
                      not just work.
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-                        <button
-                            onClick={downloadCV}
+                        <a href="/CV.pdf"
+                            download
                             className="px-[2rem] hover:bg-violet-400 transition-all duration-200 py-[1rem] text-[18px]
-                            font-bold uppercase bg-[#31363992] text-black flex items-center space-x-2"
-                        >
-                            <p>Download CV</p>
+                            font-bold uppercase bg-[#31363992] text-black flex items-center space-x-2">
+                            Download CV
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black "/>
-                        </button>
+                        </a>
                     </div>
                 </div>
                 <div data-aos="fade-left" className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">

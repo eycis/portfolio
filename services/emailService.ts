@@ -1,5 +1,4 @@
 export const sendEmail = async (): Promise<void> => {
-    console.log('sendEmail function called');
     try {
         const response = await fetch('/api/send-email', {
             method: 'POST',
