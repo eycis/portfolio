@@ -14,10 +14,10 @@ const About = () => {
               <p className="text-[19px] text-slate-300 font-mono">
               I studied Business Informatics at the University of South Bohemia in České Budějovice, 
               where I focused my diploma thesis on developing an desktop game using Unity and Blender.  
-              Currently, I'm deeply interested in application design and frontend development using TypeScript and React.  
+              Currently, I am deeply interested in application design and frontend development using TypeScript and React.  
 
               I enjoy creating user-friendly, maintainable interfaces that combine logic with visual clarity.  
-              I'm a friendly and reliable team player, always eager to learn new technologies, 
+              I am a friendly and reliable team player, always eager to learn new technologies, 
               explore better solutions, and pay attention to the little details that make a product great.
 
               Outside of tech, I love traveling, listening to music, exploring history, and spending time with my dog.
