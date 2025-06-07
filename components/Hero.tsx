@@ -20,7 +20,8 @@ const downloadCV = async () => {
 
 const Hero = () => {
     return (
-        <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
+        // <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
+        <div className="h-[88vh]  bg-[#0a0a0a] mt-[10vh] bg-cover bg-center">
             <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
                 <div>
                     <h1 className="text-[35px] md:text-[50px] text-white font-bold">
@@ -28,14 +29,17 @@ const Hero = () => {
                     </h1>
                     <TextEffect/>
                     <p className="mt-[1.5rem] text-[18px] text-[#ffffff92]">
-                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam neque provident pariatur sint ipsam 
-                        alias mollitia earum, doloribus aliquid beatae? Fugit cupiditate ipsum harum consequatur?
+                    I'm a frontend developer who enjoys building secure, functional, 
+                    and user-friendly applications. While working on an injury reporting system, 
+                    I designed the data model, security layer, export features, and role-based UX. 
+                    I believe even simple apps deserve thoughtful, well-structured solutions that make sense —
+                     not just work.
                     </p>
                     <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
                         <button
                             onClick={downloadCV}
                             className="px-[2rem] hover:bg-violet-400 transition-all duration-200 py-[1rem] text-[18px]
-                            font-bold uppercase bg-[#ffffff92] text-black flex items-center space-x-2"
+                            font-bold uppercase bg-[#31363992] text-black flex items-center space-x-2"
                         >
                             <p>Download CV</p>
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black "/>
@@ -43,7 +47,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div data-aos="fade-left" className="lg:w-[500px] mx-auto md:mx-0 mt-[2rem] lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
-                <Image src="/images/me.jpg" alt="user" layout="fill" objectFit="\contain" className="object-cover rounded-full" />
+                <Image src="/images/me.jpeg" alt="user" layout="fill" objectFit="\contain" className="object-cover rounded-full" />
                 </div>
             </div>
         </div>

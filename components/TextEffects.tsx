@@ -4,17 +4,15 @@ const TextEffect = () => {
   return (
     <TypeAnimation
       sequence={[
-        'Placeholder',
+        'Typescript developer',
         1500,
-        'Placeholder 02 ',
+        'Engineer with a Creative Eye',
         1500,
-        'Placeholder 03 ',
-        1500,
-        'Placeholder 04',
+        'Lifelong Learner',
         1500
       ]}
       speed={50}
-      className = "text-[2rem] md:text-[3rem] text-violet-400 font-bold uppercase"
+      className = "text-[2rem] md:text-[3rem] text-gray-600 font-mono"
       repeat={Infinity}
     />
   );
