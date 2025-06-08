@@ -22,8 +22,7 @@ const Projects = () => {
             <div data-aos = "fade-up">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/el2.gif" alt='portfolio' layout='responsive' width={500}
-                    height={700} className='object-contain'/>
+                    <Image src="/images/el2.gif" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>
             </div>
             <div data-aos = "fade-up" data-aos-delay="300">

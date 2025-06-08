@@ -53,6 +53,7 @@ const MobileNav = ({nav, closeNav}: Props) => {
                     to="reviewspage"
                     spy={true}
                     smooth={true}
+                    onClick={closeNav}
                     offset={-70}
                     duration={500}
                 className = "nav-link-mobile">Reviews</Link>
