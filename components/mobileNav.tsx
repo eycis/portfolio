@@ -1,5 +1,6 @@
 import { XMarkIcon } from "@heroicons/react/24/solid";
 import React from "react";
+import { Link } from "react-scroll";
 
 interface Props{
     nav:boolean;
@@ -11,12 +12,58 @@ const MobileNav = ({nav, closeNav}: Props) => {
     return(
         <div className = {`fixed ${navAnimation} transform transition-all duration-300 top-0 right-0 bottom-0 z-[100000] bg-[#09101a]`}>
             <div className = "w-[100vw] h-[100vh] flex flex-col items-center justify-center">
-                <div className = "nav-link-mobile">Home</div>
-                <div className = "nav-link-mobile">About me</div>
-                {/* <div className = "nav-link-mobile">Services</div> */}
-                <div className = "nav-link-mobile">Skills</div>
-                <div className = "nav-link-mobile">Projects</div>
-                <div className = "nav-link-mobile">Contact</div>
+                <Link 
+                    to="hero"
+                    spy={true}
+                    onClick={closeNav}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className = "nav-link-mobile">
+                    Home
+                </Link>
+                <Link 
+                    to="about"
+                    spy={true}
+                    smooth={true}
+                    onClick={closeNav}
+                    offset={-70}
+                    duration={500}
+                    className = "nav-link-mobile">About me
+                </Link>
+                <Link 
+                    to="skills"
+                    spy={true}
+                    smooth={true}
+                    onClick={closeNav}
+                    offset={-70}
+                    duration={500}
+                    className = "nav-link-mobile">Skills
+                </Link>
+                <Link 
+                    to="projects"
+                    spy={true}
+                    onClick={closeNav}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                    className = "nav-link-mobile">Projects
+                </Link>
+                <Link 
+                    to="reviewspage"
+                    spy={true}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                className = "nav-link-mobile">Reviews</Link>
+                <Link 
+                    to="contact"
+                    spy={true}
+                    onClick={closeNav}
+                    smooth={true}
+                    offset={-70}
+                    duration={500}
+                className = "nav-link-mobile">Contact</Link>
             </div>
             <div onClick = {closeNav} 
                 className= "absolute z-[100000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-violet-300">

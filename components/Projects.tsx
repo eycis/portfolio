@@ -7,9 +7,9 @@ const Projects = () => {
         <h1 className='heading mb-10'>
             My Projects
         </h1>
-        <div className='w-[50%] pt-[rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-28'>
+        <div className='w-[80%] pt-[rem] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-8 mb-28'>
         <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
-            <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
+            <h2 className='mt-[2rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
                 Injury Logbook
             </h2>
             <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono '> 
@@ -22,7 +22,8 @@ const Projects = () => {
             <div data-aos = "fade-up">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/el2.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/el2.gif" alt='portfolio' layout='responsive' width={500}
+                    height={700} className='object-contain'/>
                 </div>
             </div>
             <div data-aos = "fade-up" data-aos-delay="300">
