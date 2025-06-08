@@ -76,6 +76,18 @@ const Projects = () => {
                 Blender · VR · Low Poly
             </p>
             </div>
+            <div data-aos = "fade-up" data-aos-delay="300">
+                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
+                w-[100%] h-[200px] md:h-[300px]'>
+                    <Image src="/images/stavebnice.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                </div>
+            </div>
+            <div data-aos = "fade-up" data-aos-delay="300">
+                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
+                w-[100%] h-[200px] md:h-[300px]'>
+                    <Image src="/images/stavebnice_2.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                </div>
+            </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
             <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
                 RPA developer - Bosch GmbH
