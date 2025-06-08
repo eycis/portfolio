@@ -22,8 +22,8 @@ function Skills() {
           <SkillItem 
             title="Blender" 
             year="2021-2024"
-            text="Created low-poly 3D models for VR educational environments as part of my master's thesis. Quickly adapted to Blender's advanced features for modeling, texturing, and exporting assets." 
-          />
+            text="Created and edited detailed low-poly 3D models for educational VR environments. I quickly adapted to Blender's advanced features for modeling, texturing, and exporting assets."
+            />
           <SkillsLanguage 
             skill1="React" 
             level1="w-[80%]" 
@@ -48,8 +48,8 @@ function Skills() {
           <SkillItem 
             title="Unity" 
             year="2023"
-            text="Developed a desktop game in Unity using C# as part of my thesis project, including gameplay scripting, scene management, and integration of 3D assets, with a focus on creating an engaging and educational experience."
-          />
+            text="Developed a desktop game in Unity using C# for my thesis. Focused on gameplay scripting, scene logic, and integrating 3D models into an interactive learning experience."
+            />
           <SkillsLanguage 
             skill1="SQL Developer" 
             level1="w-[70%]" 
