@@ -34,7 +34,13 @@ const Review = () => {
         itemClass='item'
 
     >
-      <ReviewItems image="/images/me.jpg" name = "Miroslava Smržová" role="client" review=""/>
+      <ReviewItems image="/images/Mirka.png" 
+        name = "Miroslava Smržová" 
+        role="client" 
+        review="
+        Working with Marie was a real pleasure. I needed a web application for an electronic injury logbook, and Marie approached the task with complete professionalism. She quickly understood what I needed and came up with a solution that was not only functional but also clear and user-friendly. 
+        The entire development process went smoothly – communication was fast and to the point, and Marie was always available when I needed her. The application worked flawlessly from the very beginning. I especially appreciated her willingness to respond to feedback, continually think about the app from the user’s perspective, and fine-tune every detail to meet their needs – all while keeping deadlines.
+        The final result matched exactly what I had envisioned – easy to use, well-organized, and ready for real-world deployment. I highly recommend Marie and look forward to working with her again in the future."/>
       <ReviewItems image="/images/Karel.jpg" 
         name = "Karel Hulec" 
         role="CEO of Solirax CoreDev" 

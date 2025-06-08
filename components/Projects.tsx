@@ -22,26 +22,14 @@ const Projects = () => {
             <div data-aos = "fade-up">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/02.png" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/el2.gif" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>
             </div>
             <div data-aos = "fade-up" data-aos-delay="300">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/03.png" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/el1.gif" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>       
-            </div>
-            <div data-aos = "fade-up">
-                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
-                w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/04.png" alt='portfolio' layout='fill' className='object-contain'/>
-                </div>
-            </div>
-            <div data-aos = "fade-up" data-aos-delay="300">
-                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
-                w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/07.png" alt='portfolio' layout='fill' className='object-contain'/>
-                </div>
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
             <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
@@ -108,7 +96,7 @@ const Projects = () => {
                 As part of my work at Bosch, I got to be a part of an international team, where I was involved in data analysis and validation across multiple 
                 systems to support better decision-making and ensure data reliability. <br/>
                 <span className='font-bold'>Tech Stack:  </span> 
-                SQL Server Management Studio (SSMS) · Microsoft SQL Server · DevOps 
+                SQL Server Management Studio · Microsoft SQL Server · DevOps 
             </p>
             <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono mt-4 '> 
                 In addition, I worked on user behavior analysis by extracting and processing log file data using Jupyter Notebook, pandas, NumPy, and visualization tools.

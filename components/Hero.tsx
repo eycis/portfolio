@@ -31,7 +31,7 @@ const Hero = () => {
                         <a href="/CV.pdf"
                             download
                             className="px-[2rem] hover:bg-violet-400 transition-all duration-200 py-[1rem] text-[18px]
-                            font-bold uppercase bg-[#31363992] text-black flex items-center space-x-2">
+                            font-bold uppercase bg-[#8d8e8e92] text-black flex items-center space-x-2">
                             Download CV
                             <ArrowDownTrayIcon className="w-[1.6rem] h-[1.7rem] text-black "/>
                         </a>
