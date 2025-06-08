@@ -11,7 +11,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className='text-[25px] mb-[0.2rem] font-semibold text-white'>
-              located
+              Located
             </h1>
             <p className='text-white opacity-60 text-[17px] w-[90%]'>
               Písek
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
           <div>
             <h1 className='text-[25px] mb-[0.2rem] font-semibold text-white'>
-              e-mail
+              E-mail
             </h1>
             <p className='text-white opacity-60 text-[17px] w-[90%]'>
                 maried@outlook.cz
