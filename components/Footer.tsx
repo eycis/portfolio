@@ -1,4 +1,4 @@
-import { DevicePhoneMobileIcon, EnvelopeIcon, MapIcon } from '@heroicons/react/24/solid';
+import { CodeBracketIcon, DevicePhoneMobileIcon, EnvelopeIcon, MapIcon } from '@heroicons/react/24/solid';
 import React from 'react'
 
 const Footer = () => {
@@ -20,14 +20,14 @@ const Footer = () => {
         </div>
         <div className='flex items-center space-x-6'>
           <div className='md:w-[6.5rem] md:h-[6.5rem] w-[5rem] h-[5rem] flex items-center justify-center rounded-full bg-violet-400 '>
-            <DevicePhoneMobileIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black' />
+            <CodeBracketIcon className='md:w-[4rem] md:h-[4rem] w-[3.5rem] h-[3.5rem] text-black' />
           </div>
           <div>
             <h1 className='text-[25px] mb-[0.2rem] font-semibold text-white'>
-              phone
+              GitHub
             </h1>
             <p className='text-white opacity-60 text-[17px] w-[90%]'>
-              00420773459595
+              <a href="https://github.com/eycis">https://github.com/eycis</a>
             </p>
           </div>
         </div>

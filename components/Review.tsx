@@ -35,6 +35,17 @@ const Review = () => {
 
     >
       <ReviewItems image="/images/me.jpg" name = "Miroslava Smržová" role="client" review=""/>
+      <ReviewItems image="/images/Karel.jpg" 
+        name = "Karel Hulec" 
+        role="CEO of Solirax CoreDev" 
+        review="Despite having little to no prior experience with aesthetic-technical 3D modeling, 
+        Marie quickly oriented herself in the advanced application Blender, 
+        and her very first model was deployed in a project focused on STEM education of electrical circuits 
+        (physics) in VR at secondary schools. Her work is of high quality, and Marie herself is very communicative, 
+        eager to learn, and hardworking. She will be a valuable asset to any team or company."/>
+
+
+      
       {/* <ReviewItems image="/images/me.jpg" name = "tvoje máma" role="tvoje máma"/>
       <ReviewItems image="/images/me.jpg" name = "tvoje máma" role="tvoje máma"/> */}
     </Carousel>
