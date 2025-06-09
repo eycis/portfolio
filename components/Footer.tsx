@@ -27,7 +27,7 @@ const Footer = () => {
               GitHub
             </h1>
             <p className='text-white opacity-60 text-[17px] w-[90%]'>
-              <a href="https://github.com/eycis">https://github.com/eycis</a>
+              <a href="https://github.com/eycis">Link</a>
             </p>
           </div>
         </div>

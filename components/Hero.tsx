@@ -17,8 +17,8 @@ import { sendEmail } from "../services/emailService";
 const Hero = () => {
     return (
         // <div className="h-[88vh] bg-[url('/images/banner.jpg')] mt-[10vh] bg-cover bg-center">
-        <div className="h-screen md:h-[88vh]  bg-[#0a0a0a] mt-[10vh] bg-cover bg-center">
-            <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
+<div className="min-h-screen md:h-[88vh] bg-[#0a0a0a] mt-[10vh] bg-cover bg-center">
+<div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-[3rem] h-full items-start lg:items-center">
                 <div>
                     <h1 className="text-[35px] pt-10 md:text-[50px] text-white font-bold">
                         Hi, I am <span className="text-violet-400">Marie</span> and this is my portfolio!
@@ -37,7 +37,7 @@ const Hero = () => {
                         </a>
                     </div>
                 </div>
-                <div data-aos="fade-left" className="lg:w-[500px] mx-auto md:mx-0 lg:mt-0 lg:h-[500px] w-[300px] h-[300px] relative">
+                <div data-aos="fade-left" className="w-[250px] h-[250px] lg:w-[500px] lg:h-[500px] mx-auto md:mx-0 lg:mt-0   relative">
                 <Image src="/images/me.jpeg" alt="user" fill objectFit="\contain" className="object-cover rounded-full" />
                 </div>
             </div>
