@@ -73,13 +73,13 @@ const Projects = () => {
             <div data-aos = "fade-up" data-aos-delay="300">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/05.png" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/5.png" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>
             </div>
             <div data-aos = "fade-up" data-aos-delay="300">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/06.png" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/6.png" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
