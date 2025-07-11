@@ -33,6 +33,33 @@ const Projects = () => {
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
             <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
+                Fleet Manager
+            </h2>
+            <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono '> 
+            Responsible for integrating a C# Blazor-based fleet management system with a Microsoft SQL Server database and designing the underlying data model using Entity Framework Core.
+            Developed a custom workflow for vehicle reservations, including business rule enforcement and automated email notifications to approvers in a predefined sequence.
+            Created a Blazor UI interface for approvers to review, approve, or reject bookings, ensuring a smooth and transparent approval process.
+            <br/>
+                <span className='font-bold'>Tech Stack:  </span> 
+                 C# · Blazor · Microsoft SQL Server · Git 
+            </p>
+            </div>
+
+            <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
+            <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
+                Study Timer
+            </h2>
+            <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono '> 
+            Developed a Python desktop application using Tkinter to track and log study time intervals for students, storing data locally with SQLite.
+            Integrated the Tweepy API to allow users to post study summaries to Twitter and view study-related tweets from other users for motivation and accountability.
+            Implemented visualizations of study patterns using Matplotlib, and provided a user-friendly interface for reviewing personal study history and comparing with peers. <br/>
+                <span className='font-bold'>Tech Stack:  </span> 
+                Python · Tkinter · Tweepy · MatPlotLib · SQLite3 · Git
+            </p>
+            </div>
+
+            <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
+            <h2 className='mt-[5rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
                 Apocalypse Chronicles
             </h2>
             <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono '> 
@@ -42,6 +69,7 @@ const Projects = () => {
                 Unity · C# · Blender · Git · Low Poly
             </p>
             </div>
+
             <div data-aos = "fade-up" data-aos-delay="300">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>

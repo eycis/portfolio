@@ -19,17 +19,17 @@ function Skills() {
             year="2021-2023"
             text="Built a time-tracking app for my bachelor thesis with data analytics and visualization. Continued with smaller projects in pandas, NumPy, and Matplotlib." 
           />
-          <SkillItem 
-            title="Blender" 
-            year="2021-2024"
-            text="Created and edited detailed low-poly 3D models for educational VR environments. I quickly adapted to Blender's advanced features for modeling, texturing, and exporting assets."
-            />
+        <SkillItem 
+          title="Game Developer" 
+          year="2021–2024"
+          text="Designed and implemented educational desktop game experiences using Unity and Blender. Developed gameplay logic in C#, and created low-poly 3D assets with modeling, texturing, and scene export workflows tailored for interactive environments." 
+        />
           <SkillsLanguage 
             skill1="React" 
             level1="w-[80%]" 
             skill2="Python" 
             level2="w-[60%]" 
-            skill3="Blender" 
+            skill3="Game Dev" 
             level3="w-[65%]" 
           />
         </div>
@@ -46,16 +46,16 @@ function Skills() {
             text="I develop and maintain automation bots in Bosch to streamline routine tasks and reduce manual effort, supporting both my own workflow and that of my colleagues." 
           />
           <SkillItem 
-            title="Unity" 
-            year="2023"
-            text="Developed a desktop game in Unity using C# for my thesis. Focused on gameplay scripting, scene logic, and integrating 3D models into an interactive learning experience."
+            title="C# / Blazor Developer" 
+            year="2021-2024"
+            text="Extended a Blazor-based fleet management system as part of a university project. Connected the app to a SQL Server database, designed the data model with Entity Framework, implemented multi-step reservation workflows, and created a UI for approvers."
             />
           <SkillsLanguage 
             skill1="SQL Developer" 
             level1="w-[70%]" 
             skill2="RPA Developer" 
             level2="w-[90%]" 
-            skill3="Unity" 
+            skill3="C# / Blazor" 
             level3="w-[60%]" 
           />
         </div>
