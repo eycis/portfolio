@@ -16,7 +16,7 @@ const Projects = () => {
                 A web application for recording and managing workplace injuries, used across 100+ branches in CZ and SK. 
                 It features secure role-based access, automated approval workflows, and centralized injury data storage.<br/>
                 <span className='font-bold'>Tech Stack:  </span> 
-                React · TypeScript · Tailwind CSS · Firebase · Zod · React Hook Form · Git
+                React · TypeScript · Tailwind CSS · Firebase · Zod · React Hook Form · Git · Resend
             </p>
             </div>
             <div data-aos = "fade-up">
@@ -29,6 +29,24 @@ const Projects = () => {
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
                     <Image src="/images/el1.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                </div>       
+            </div>
+            <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
+            <h2 className='mt-[2rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
+                Secret Buddy Picker
+            </h2>
+            <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono'> 
+                A minimalist gift exchange app built for a close-knit friend group — no accounts or logins required.
+                Each participant simply selects their name and is randomly assigned a friend to gift, with built-in safeguards to ensure fairness and prevent duplicates.
+                The app also sends email notifications and was a fun way for me to practice my development skills while creating something meaningful to share with my friends.<br/>
+                <span className='font-bold'>Tech Stack: </span> 
+                Next.js · TypeScript · Tailwind CSS · Firebase · Resend
+            </p>
+            </div>
+            <div className='col-span-2 flex justify-center items-center' data-aos="fade up" data-aos-delay="300">
+                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
+                w-[100%] h-[200px] md:h-[300px]'>
+                    <Image src="/images/buddyPicker.gif" alt='portfolio' layout='fill' className='object-contain'/>
                 </div>       
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
