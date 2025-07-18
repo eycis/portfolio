@@ -8,7 +8,7 @@ function Skills() {
       <h1 className="heading">Education & Skills</h1>
       <div className="w-[90%] md:w-[80%] mx-auto pt-[5rem] md:pt-[8rem] grid grid-cols-1 md:grid-cols-2 gap-[4rem] items-start">
         
-        <div className="flex flex-col space-y-[5rem]">
+        <div className="flex flex-col space-y-[5rem] h-full">
           <SkillItem 
             title="React Developer" 
             year="2024"
@@ -43,12 +43,12 @@ function Skills() {
           <SkillItem 
             title="RPA Developer" 
             year="2024"
-            text="I develop and maintain automation bots in Bosch to streamline routine tasks and reduce manual effort, supporting both my own workflow and that of my colleagues." 
-          />
+            text="At Bosch, I develop and maintain RPA bots to automate repetitive tasks, reduce manual effort, and ensure reliable business processes across teams." 
+            />
           <SkillItem 
             title="C# / Blazor Developer" 
             year="2021-2024"
-            text="Extended a Blazor-based fleet management system as part of a university project. Connected the app to a SQL Server database, designed the data model with Entity Framework, implemented multi-step reservation workflows, and created a UI for approvers."
+            text="Connected a Blazor-based fleet system to a SQL Server database. Designed the data model using Entity Framework, implemented multi-step reservation workflows, and developed an interface for approvers to review, approve, or reject bookings."
             />
           <SkillsLanguage 
             skill1="SQL Developer" 
