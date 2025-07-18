@@ -46,7 +46,7 @@ const Projects = () => {
             <div className='col-span-2 flex justify-center items-center' data-aos="fade up" data-aos-delay="300">
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
-                    <Image src="/images/buddyPicker.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                    <Image src="/images/buddyPicker.gif" alt='portfolio' layout='fill' className='object-contain w-full h-full'/>
                 </div>       
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
