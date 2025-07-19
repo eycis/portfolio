@@ -16,7 +16,7 @@ const Projects = () => {
                 A web application for recording and managing workplace injuries, used across 100+ branches in CZ and SK. 
                 It features secure role-based access, automated approval workflows, and centralized injury data storage.<br/>
                 <span className='font-bold'>Tech Stack:  </span> 
-                React · TypeScript · Tailwind CSS · Firebase · Zod · React Hook Form · Git · Resend
+                Next.js · TypeScript · Tailwind CSS · Firebase · Zod · React Hook Form · Git · Resend
             </p>
             </div>
             <div data-aos = "fade-up">

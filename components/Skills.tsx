@@ -24,15 +24,15 @@ function Skills() {
           year="2021–2024"
           text="Designed and implemented educational desktop game experiences using Unity and Blender. Developed gameplay logic in C#, and created low-poly 3D assets with modeling, texturing, and scene export workflows tailored for interactive environments." 
         />
-          <SkillsLanguage 
+          {/* <SkillsLanguage 
             skill1="React" 
             level1="w-[80%]" 
             skill2="Python" 
             level2="w-[60%]" 
             skill3="Game Dev" 
             level3="w-[65%]" 
-          />
-        </div>
+          />*/}
+        </div> 
 
         <div className="flex flex-col space-y-[5rem]">
           <SkillItem 
@@ -50,14 +50,14 @@ function Skills() {
             year="2021-2024"
             text="Connected a Blazor-based fleet system to a SQL Server database. Designed the data model using Entity Framework, implemented multi-step reservation workflows, and developed an interface for approvers to review, approve, or reject bookings."
             />
-          <SkillsLanguage 
+          {/* <SkillsLanguage 
             skill1="SQL Developer" 
             level1="w-[70%]" 
             skill2="RPA Developer" 
             level2="w-[90%]" 
             skill3="C# / Blazor" 
             level3="w-[60%]" 
-          />
+          /> */}
         </div>
       </div>
     </div>
