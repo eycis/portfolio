@@ -29,7 +29,26 @@ const Projects = () => {
                 <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
                 w-[100%] h-[200px] md:h-[300px]'>
                     <Image src="/images/el1.gif" alt='portfolio' layout='fill' className='object-contain'/>
-                </div>       
+                </div> 
+            </div>
+            <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
+            <h2 className='mt-[2rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
+                 Budget Dashboard
+            </h2>
+            <p className='text-[#aaaaaa] w-[90%] text-[17px] opacity-80 font-mono'> 
+            A clean and interactive personal finance dashboard built to help users track their income, expenses, and 
+            investments over time. With monthly filtering, dynamic charts, and anomaly detection, it visualizes spending 
+            patterns and supports better money habits. This project let me dive deeper into data visualization and 
+            client-side logic while crafting something genuinely useful. Currently, this project is a work in progress.<br/>
+                <span className='font-bold'>Tech Stack: </span> 
+                Next.js · TypeScript · Tailwind CSS · Firebase · Chart.js · Git
+            </p>
+            </div>
+            <div className='col-span-2 flex justify-center items-center' data-aos = "fade-up" data-aos-delay="300">
+                <div className='transform cursor-pointer hover:-translate-y-6 transition-all duration-200 relative
+                w-[100%] h-[200px] md:h-[300px]'>
+                    <Image src="/images/budget-dashboard.gif" alt='portfolio' layout='fill' className='object-contain'/>
+                </div> 
             </div>
             <div className='flex flex-col justify-center col-span-2' data-aos = "fade up">
             <h2 className='mt-[2rem] uppercase font-semibold mb-[1rem] text-[15px] sm:text-[25px] md:text-[30px] text-white'>
